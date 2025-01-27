@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:id="@+id/nameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Task Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkColorDate"
+            android:enabled="false"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/descriptionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameLayout"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Description Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkColorDate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/sectionLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/descriptionLayout"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_section"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Section Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkColorDate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/companyLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sectionLayout"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edit_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:hint="Company Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/darkColorDate"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/dateLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/companyLayout"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dialogDate"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Time"
+            android:layout_marginBottom="16dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:id="@+id/set_time_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Set Time"/>
+    </LinearLayout>
+
+</RelativeLayout>

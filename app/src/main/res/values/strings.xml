@@ -1,0 +1,27 @@
+<resources>
+
+    <string name="delete_button_desc">Delete item</string>
+
+    <string name="app_name">Auditors Pro</string>
+    <string name="Audit1">John Keels Holdings</string>
+    <string name="Audit2">Brandix Private Limited</string>
+    <string name="Audit3">Hemas Holding PLC</string>
+    <string name="Audit4">Rathna Resorts Pvt Ltd</string>
+    <string name="Audit5">MAS Holding Pvt LTd</string>
+    <string name="Audit6">Promate Books PLC</string>
+    <string name="profile">Profile</string>
+    <string name="home">Home</string>
+    <string name="address">No138, Robert Lane, Thalangama</string>
+    <string name="phone">      077657356</string>
+    <string name="mail">Aravindaviraj@gmail.com</string>
+    <string name="username">Janindu Muthunayaka</string>
+    <string name="submit">CA Sri Lanka Announce new mutual recognition agreement with ACCA on qualifications</string>
+    <string name="news1">M &amp; J Auditors Celebrate 25 Years of Excellence in Financial Auditing</string>
+    <string name="news2">CA Sri Lanka Introduces New Digital Tools for Streamlining Financial Reporting</string>
+    <string name="news3">M &amp; J Auditors Partner with Global Firm to Enhance Forensic Accounting Services</string>
+    <string name="news4">CA Sri Lanka Hosts National Conference on Future of Accounting in a Digital World</string>
+    <string name="news5">M &amp; J Auditors Launch Innovative Tax</string>
+    <string name="dialogDate">Request Date</string>
+    <string name="actionBarTitle">ToDo</string>
+    <string name="listEmptyText">What do you want to do today? You can create new ToDo using  + button</string>
+</resources>
